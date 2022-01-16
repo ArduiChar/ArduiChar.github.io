@@ -1,0 +1,23 @@
+progress::-webkit-progress-value {
+  background-color: $link-color;
+}
+
+progress::-webkit-progress-bar {
+  background-color: $gray-100;
+}
+
+body.dark progress::-webkit-progress-value {
+  background-color: $link-color-dark;
+}
+
+body.dark progress::-webkit-progress-bar {
+  background-color: $body-overlay-dark;
+}
+
+#secondaire::-webkit-progress-value {
+  background-color: rgb(22, 194, 51);
+}
+
+body.dark #secondaire::-webkit-progress-value {
+  background-color: rgb(19, 56, 38);
+}

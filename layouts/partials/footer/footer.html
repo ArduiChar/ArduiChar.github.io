@@ -1,0 +1,23 @@
+<footer class="footer text-muted">
+  <div class="container">
+    <div class="row">
+      <div class="col order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+        </ul>
+      </div>
+      <div class="col order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          {{ range .Site.Menus.footer -}}
+          <li class="list-inline-item"><a href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}</a></li>
+          {{ end -}}
+        </ul>
+      </div>
+      <div class="col text-center">
+        <ul class="list-inline">
+          <li class="list-inline-item">Copyright &copy; {{ now.Format "2006" }} {{ .Site.Params.schemaAuthorGitHub }}. Tous droits réservés.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -33,7 +33,6 @@
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
-  
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.17",
@@ -51,9 +50,9 @@
     "instant.page": "^5.1",
     "katex": "^0.15",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.30",
-    "node-fetch": "^3.2",
+    "markdownlint-cli": "^0.31.1",
     "mermaid": "^9.0.0",
+    "node-fetch": "^3.2",
     "postcss": "^8.4",
     "postcss-cli": "^9.1",
     "purgecss-whitelister": "^2.4",

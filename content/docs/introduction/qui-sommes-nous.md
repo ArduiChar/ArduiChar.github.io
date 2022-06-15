@@ -1,19 +1,26 @@
 ---
-title: "Qui sommes-nous"
-description: ""
+title: "Qui sommes-nous ?"
+description: "Qui sommes-nous ?"
 lead: ""
 date: 2022-01-07T22:19:51.911Z
-lastmod: 2022-01-07T22:19:51.911Z
+lastmod: 2022-02-07T22:19:51.911Z
 draft: false
 images: []
 menu:
   docs:
     parent: "introduction"
 weight: 100
-toc: true
-contributors: ["GogoVega", "Captain Jack Sparrow", "M. Gibbs", "Gouloum"]
+toc: false
+contributors: ["GogoVega"]
 ---
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+Nous sommes quatre étudiants en seconde année de bachelier en automatisation à l'EPHEC (Ecole Pratique des Hautes Ecoles Commerciales, Bruxelles, Belgique).
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+Nous avons mis en commun nos connaissances techniques et réalisé ensemble un char télécommandé.
+
+{{< alert icon="👉" >}}Envie d'en savoir plus à propos de [l'équipe]({{< relref "l_equipe" >}}) ?{{< /alert >}}
+
+Notre char est un robot télécommandé pouvant se déplacer en avant, en arrière ainsi que latéralement.
+Il peut être télécommandé via une communication Bluetooth. Le robot est aussi muni d’un bras articulé composé de servomoteurs capables d’attraper des petits objets grâce à une pince.
+
+{{< alert icon="👉" >}}Envie d'en savoir plus à propos du [projet]({{< relref "le_projet" >}}) ?{{< /alert >}}
